@@ -18,7 +18,7 @@ export function HeroSection() {
             transition={{ duration: 0.6 }}
           >
             <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-black/10 text-accent border border-accent/20">
-              ✨ Now available for teams
+              ✨ Disponibile in preordine
             </span>
           </motion.div>
 

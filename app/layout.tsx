@@ -10,7 +10,6 @@ export const metadata: Metadata = {
   title: "HealthyGenome - Analisi Genomica Personalizzata",
   description:
     "Scopri il tuo profilo genetico con HealthyGenome. Analisi complete per nutrizione, salute e benessere personalizzati.",
-  generator: "v0.app",
 }
 
 export default function RootLayout({
@@ -23,10 +22,7 @@ export default function RootLayout({
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Inter:wght@100..900&display=swap"
-          rel="stylesheet"
-        />
+        <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,400..700&family=Inter:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
       </head>
       <body className={`font-sans ${GeistMono.variable} antialiased`}>
         <AuthProvider>
