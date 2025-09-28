@@ -68,10 +68,10 @@ export function HeroSection() {
             transition={{ duration: 0.8, delay: 0.8 }}
           >
             {[
-              { value: "Ordina", label: "spediremo il test direttamente a casa tua" },
-              { value: "Spedisci", label: "un corriere prenderà il tuo test e lo porterà ai nostri laboratori" },
-              { value: "Analizziamo", label: "analizziamo il tuo test e lo trasformiamo in un VCF" },
-              { value: "Visualizza", label: "visualizza i risultati con i nostri professionisti" },
+              { value: "1. Ordina", label: "spediremo il test direttamente a casa tua" },
+              { value: "2. Spedisci", label: "un corriere prenderà il tuo test e lo porterà ai nostri laboratori" },
+              { value: "3. Analizziamo", label: "analizziamo il tuo test e lo trasformiamo in un VCF" },
+              { value: "4. Visualizza", label: "visualizza i risultati con i nostri professionisti" },
             ].map((stat, index) => (
               <motion.div
                 key={index}

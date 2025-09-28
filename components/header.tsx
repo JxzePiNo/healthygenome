@@ -24,14 +24,7 @@ export function Header({ onLoginClick }: HeaderProps) {
           <div className="flex items-center space-x-8">
             <motion.div whileHover={{ scale: 1.05 }} transition={{ duration: 0.2 }}>
               <Link href="/" className="flex items-center space-x-2">
-                <motion.div
-                  className="w-8 h-8 bg-accent rounded-lg flex items-center justify-center"
-                  whileHover={{ rotate: 360 }}
-                  transition={{ duration: 0.6 }}
-                >
-                  <span className="font-bold text-xl text-foreground">healthygenome</span>
-                </motion.div>
-                
+                <span className="font-bold text-xl text-foreground">healthygenome</span>
               </Link>
             </motion.div>
 
