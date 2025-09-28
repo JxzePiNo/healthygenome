@@ -29,14 +29,14 @@ export function Header({ onLoginClick }: HeaderProps) {
                   whileHover={{ rotate: 360 }}
                   transition={{ duration: 0.6 }}
                 >
-                  <span className="text-accent-foreground font-bold text-lg">S</span>
+                  <span className="font-bold text-xl text-foreground">healthygenome</span>
                 </motion.div>
-                <span className="font-bold text-xl text-foreground">StreamLine</span>
+                
               </Link>
             </motion.div>
 
             <nav className="hidden md:flex items-center space-x-6">
-              {["Features", "Testimonials", "Pricing", "Contact"].map((item, index) => (
+              {["Prezzi", "Chi siamo", "Blog", "Contatti"].map((item, index) => (
                 <motion.div
                   key={item}
                   initial={{ opacity: 0, y: -10 }}
@@ -58,11 +58,11 @@ export function Header({ onLoginClick }: HeaderProps) {
           <div className="flex items-center space-x-4">
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
               <Button variant="ghost" className="text-muted-foreground hover:text-foreground" onClick={onLoginClick}>
-                Sign In
+                Login in
               </Button>
             </motion.div>
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-              <Button className="bg-primary text-primary-foreground hover:bg-primary/90">Get Started</Button>
+              <Button className="bg-primary text-primary-foreground hover:bg-primary/90">Parti ora</Button>
             </motion.div>
           </div>
         </div>

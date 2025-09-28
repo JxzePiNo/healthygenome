@@ -17,7 +17,7 @@ export function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-accent/10 text-accent border border-accent/20">
+            <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-black/10 text-accent border border-accent/20">
               ✨ Now available for teams
             </span>
           </motion.div>
@@ -28,7 +28,7 @@ export function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            The complete platform to <span className="text-accent">streamline</span> your workflow
+            Leggiamo i tuoi geni, miglioriamo le tue abitudini.
           </motion.h1>
 
           <motion.p
@@ -49,14 +49,14 @@ export function HeroSection() {
           >
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
               <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 px-8">
-                Get Started Free
+                Scopri di più
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
             </motion.div>
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
               <Button size="lg" variant="outline" className="border-border hover:bg-muted bg-transparent">
                 <Play className="mr-2 h-4 w-4" />
-                Watch Demo
+                Login
               </Button>
             </motion.div>
           </motion.div>
@@ -68,10 +68,10 @@ export function HeroSection() {
             transition={{ duration: 0.8, delay: 0.8 }}
           >
             {[
-              { value: "50+ days", label: "saved on setup" },
-              { value: "99% faster", label: "deployment time" },
-              { value: "400% increase", label: "in productivity" },
-              { value: "10x faster", label: "to market" },
+              { value: "Ordina", label: "spediremo il test direttamente a casa tua" },
+              { value: "Spedisci", label: "un corriere prenderà il tuo test e lo porterà ai nostri laboratori" },
+              { value: "Analizziamo", label: "analizziamo il tuo test e lo trasformiamo in un VCF" },
+              { value: "Visualizza", label: "visualizza i risultati con i nostri professionisti" },
             ].map((stat, index) => (
               <motion.div
                 key={index}
